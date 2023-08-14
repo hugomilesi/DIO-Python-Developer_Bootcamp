@@ -8,8 +8,12 @@ Design do esquema:
 
 ## Objetivos
 - Integrar este diagrama relacional em SQL e NoSQL.
+- Inserção de alguns dados mínimos para realização de consultas.
 - Realizar Algumas queries para recuperação de dados.
 
 # Tecnologias/Ferramentas Utilizadas:
+- Python.
 - MongoDB atlas.
 - SQLAlchemy.
+- Pymongo.
+  
