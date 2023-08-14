@@ -8,6 +8,7 @@ Design do esquema:
 
 ## Objetivos
 - Integrar este diagrama relacional em SQL e NoSQL.
+- Realizar Algumas queries para recuperação de dados.
 
 # Tecnologias/Ferramentas Utilizadas:
 - MongoDB atlas.
