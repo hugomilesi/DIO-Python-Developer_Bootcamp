@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Catálogo AnneTree</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Available Colors</th>
+            <th>Stock Quantity</th>
+        </tr>
+        {% for product in data %}
+        <tr>
+            <td>{{ product.name }}</td>
+            <td>{{ product.description }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.available_colors|join(', ') }}</td>
+            <td>{{ product.stock_quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

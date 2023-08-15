@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Página Inicial {% endblock %}</h1>
+    <p>Bem-vindo ao Projeto Simples de Aplicação Flask da DIO.</p>
+    
+    <h2>Visão Geral do Projeto</h2>
+    <p>
+        Neste projeto, o desafio final é criar e disponibilizar uma API desenvolvida utilizando o framework Flask, no ambiente colaborativo do Google Colab. O principal objetivo é realizar a leitura de dados de uma planilha no formato JSON por meio de uma API hospedada no Colab.
+    </p>
+    
+    <h3>Detalhes</h3>
+    <ul>
+        <li>Criação de uma API com Flask.</li>
+        <li>Leitura de dados de uma planilha JSON.</li>
+        <li>Hospedagem e interação com a API no Google Colab.</li>
+    </ul>
+    
+    <h3>Data e Hora Atual: {{ utc_dt }}</h3>
+{% endblock %}
